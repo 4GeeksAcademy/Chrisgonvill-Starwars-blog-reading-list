@@ -1,0 +1,15 @@
+.section-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.card-container {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.card {
+    display: inline-block;
+    width: 18rem; /* O ajusta el ancho según sea necesario */
+    margin-right: 10px; /* Ajusta el margen entre las tarjetas según sea necesario */
+}

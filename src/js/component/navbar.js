@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link to="/">
                 <img src="https://icon-library.com/images/star-wars-logo-icon/star-wars-logo-icon-13.jpg" style={{ width: "90px" }} mb-0 />
             </Link>
-            <div className="ml-auto">
+            <div className="d-flex align-items-center justify-content-center flex-grow-1">
                 <div className="dropdown">
                     <button className="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         Favorites ({store.favorites ? store.favorites.length : 0})
